@@ -13,7 +13,7 @@ provider "aws" {
 
 terraform {
     backend "s3" {
-        bucket = "state-terraform-matheus-22-12-20"
+        bucket = "descomplicando-terraform-matheus-22-12-20"
         dynamodb_table = "terraform-state-lock-dynamo"
         key = "terraform-tests.tfstate"
         region = "us-east-1"
